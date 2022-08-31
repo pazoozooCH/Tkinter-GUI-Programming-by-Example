@@ -2,7 +2,7 @@ import tkinter as tk
 import os
 import random
 
-assets_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'assets/'))
+assets_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../', 'assets/'))
 
 class Card:
     def __init__(self, suit, value):

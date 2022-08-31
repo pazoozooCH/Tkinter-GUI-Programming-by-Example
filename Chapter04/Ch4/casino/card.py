@@ -1,7 +1,7 @@
 import os
 from tkinter import PhotoImage
 
-assets_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 'assets/'))
+assets_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..', 'assets/'))
 
 
 class Card:
