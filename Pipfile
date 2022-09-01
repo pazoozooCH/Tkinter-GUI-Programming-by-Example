@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 pillow = "*"
 pygame = "*"
+pyyaml = "*"
+arrow = "*"
+flask = "*"
 
 [dev-packages]
 pipenv = "*"

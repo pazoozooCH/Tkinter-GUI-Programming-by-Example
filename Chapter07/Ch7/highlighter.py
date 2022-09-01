@@ -23,7 +23,7 @@ class Highlighter:
     def parse_syntax_file(self):
         with open(self.syntax_file, 'r') as stream:
             try:
-                config = yaml.load(stream)
+                config = yaml.safe_load(stream)
             except yaml.YAMLError as error:
                 print(error)
                 return
